@@ -7,9 +7,26 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 5295360
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
 citation: 'Rutishauser, Ueli (2021) Data for: Neurons detect cognitive boundaries
   to structure episodic memories in humans (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000207/draft'

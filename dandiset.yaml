@@ -6,6 +6,12 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'We thank Chaim Katz and Kramay Patel for helping set up the recording
+  system; Nand Chandravadia and Victoria Barkely for data transferring and organization;
+  Chrystal Reed, Jeffrey Chung, and the clinical teams at both Cedars-Sinai Medical
+  Center and Toronto Western Hospital; Mengmi Zhang, Jan Kaminski and other members
+  from the Rutishauser and Kreiman lab for discussion. We are especially indebted
+  to the patient volunteers who participated in this study. '
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -17,9 +23,9 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 5295360
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 56664107
+  numberOfFiles: 20
+  numberOfSubjects: 19
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
@@ -27,9 +33,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: 'Rutishauser, Ueli (2021) Data for: Neurons detect cognitive boundaries
-  to structure episodic memories in humans (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000207/draft'
+citation: 'Rutishauser, Ueli; Jie Zheng (2021) Data for: Neurons detect cognitive
+  boundaries to structure episodic memories in humans (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000207/draft'
 contributor:
 - affiliation: []
   email: urut@caltech.edu
@@ -38,12 +44,31 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: 'U01NS103792, U01NS117839 '
+  contactPoint: []
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- affiliation: []
+  email: jie.zheng@childrens.harvard.edu
+  includeInCitation: true
+  name: Jie Zheng
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2021-12-21T01:33:38.414453+00:00'
-description: This dataset contains human single-neuron data recorded from the medial
+description: 'This dataset contains human single-neuron data recorded from the medial
   temporal lobe (MTL) during a set of experiments to explore the role of neurons that
-  respond to cognitive boundaries. This dataset accompanies the paper "Neurons detect
-  cognitive boundaries to structure episodic memories in humans" by Zheng et al. 2021
-  (in press)
+  respond to cognitive boundaries. This dataset accompanies the paper cited below.
+  Example code on how to plot this data can be found at github.com/XYZ.
+
+
+  Reference:  Cognitive boundary signals in the human medial temporal lobe shape episodic
+  memory representation. Jie Zheng, Andrea Gómez Palacio Schjetnan, Mar Yebra, Clayton
+  Mosher, Suneil Kalia, Taufik A. Valiante, Adam N. Mamelak, Gabriel Kreiman, Ueli
+  Rutishauser. bioRxiv 2021.01.16.426538'
 ethicsApproval: []
 id: DANDI:000207/draft
 identifier: DANDI:000207

@@ -33,31 +33,44 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: 'Rutishauser, Ueli; Jie Zheng (2021) Data for: Neurons detect cognitive
+citation: 'Zheng, Jie; Rutishauser, Ueli (2021) Data for: Neurons detect cognitive
   boundaries to structure episodic memories in humans (Version draft) [Data set].
   DANDI archive. https://dandiarchive.org/dandiset/000207/draft'
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/03vek6s52
+    name: Harvard Medical School
+    schemaKey: Affiliation
+  email: jie.zheng@childrens.harvard.edu
+  includeInCitation: true
+  name: Zheng, Jie
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02pammg90
+    name: Cedars-Sinai
+    schemaKey: Affiliation
+  - identifier: https://ror.org/05dxps055
+    name: Caltech
+    schemaKey: Affiliation
   email: urut@caltech.edu
+  identifier: 0000-0002-9207-7069
   includeInCitation: true
   name: Rutishauser, Ueli
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
+  url: https://www.rutishauserlab.org
 - awardNumber: 'U01NS103792, U01NS117839 '
   contactPoint: []
+  identifier: https://ror.org/01cwqze88
   includeInCitation: false
   name: National Institutes of Health
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- affiliation: []
-  email: jie.zheng@childrens.harvard.edu
-  includeInCitation: true
-  name: Jie Zheng
-  roleName:
-  - dcite:Author
-  schemaKey: Person
 dateCreated: '2021-12-21T01:33:38.414453+00:00'
 description: 'This dataset contains human single-neuron data recorded from the medial
   temporal lobe (MTL) during a set of experiments to explore the role of neurons that
@@ -65,15 +78,23 @@ description: 'This dataset contains human single-neuron data recorded from the m
   Example code on how to plot this data can be found at github.com/XYZ.
 
 
-  Reference:  Cognitive boundary signals in the human medial temporal lobe shape episodic
-  memory representation. Jie Zheng, Andrea Gómez Palacio Schjetnan, Mar Yebra, Clayton
-  Mosher, Suneil Kalia, Taufik A. Valiante, Adam N. Mamelak, Gabriel Kreiman, Ueli
-  Rutishauser. bioRxiv 2021.01.16.426538'
+  Reference (to be updated upon publication):  Cognitive boundary signals in the human
+  medial temporal lobe shape episodic memory representation. Jie Zheng, Andrea Gómez
+  Palacio Schjetnan, Mar Yebra, Clayton Mosher, Suneil Kalia, Taufik A. Valiante,
+  Adam N. Mamelak, Gabriel Kreiman, Ueli Rutishauser. bioRxiv 2021.01.16.426538'
 ethicsApproval: []
 id: DANDI:000207/draft
 identifier: DANDI:000207
 keywords:
-- human single neuron, memory, medial temporal lobe, hippocampus
+- human single neuron
+- hippocampus
+- episodic memory
+- event segmentation
+- amygdala
+- parahippocampal gyrus
+- cognitive boundaries
+- continuous experience
+- ROH consortium
 license:
 - spdx:CC-BY-4.0
 manifestLocation:

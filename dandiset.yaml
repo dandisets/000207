@@ -33,17 +33,26 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: 'Zheng, Jie; Rutishauser, Ueli (2021) Data for: Neurons detect cognitive
-  boundaries to structure episodic memories in humans (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000207/draft'
+citation: 'Zheng, Jie; Kreiman, Gabriel; Rutishauser, Ueli (2021) Data for: Neurons
+  detect cognitive boundaries to structure episodic memories in humans (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000207/draft'
 contributor:
 - affiliation:
   - identifier: https://ror.org/03vek6s52
     name: Harvard Medical School
     schemaKey: Affiliation
   email: jie.zheng@childrens.harvard.edu
+  identifier: 0000-0002-9086-3760
   includeInCitation: true
   name: Zheng, Jie
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  email: gabriel.kreiman@childrens.harvard.edu
+  identifier: 0000-0003-3505-8475
+  includeInCitation: true
+  name: Kreiman, Gabriel
   roleName:
   - dcite:Author
   schemaKey: Person

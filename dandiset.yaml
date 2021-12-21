@@ -84,7 +84,8 @@ dateCreated: '2021-12-21T01:33:38.414453+00:00'
 description: 'This dataset contains human single-neuron data recorded from the medial
   temporal lobe (MTL) during a set of experiments to explore the role of neurons that
   respond to cognitive boundaries. This dataset accompanies the paper cited below.
-  Example code on how to plot this data can be found at github.com/XYZ.
+  Example code on how to plot this data can be found at https://github.com/rutishauserlab/cogboundary-zheng
+  .
 
 
   Reference (to be updated upon publication):  Cognitive boundary signals in the human

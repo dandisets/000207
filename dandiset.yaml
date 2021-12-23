@@ -23,8 +23,8 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 56664107
-  numberOfFiles: 20
+  numberOfBytes: 51368747
+  numberOfFiles: 19
   numberOfSubjects: 19
   schemaKey: AssetsSummary
   species:
@@ -33,9 +33,11 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-citation: 'Zheng, Jie; Kreiman, Gabriel; Rutishauser, Ueli (2021) Data for: Neurons
-  detect cognitive boundaries to structure episodic memories in humans (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000207/draft'
+citation: 'Zheng, Jie; Schjetnan, Andrea; Yebra, Mar; Gomes, Bernard; Mosher, Clayton;
+  Kalia, Suneil; Valiante, Taufik; Mamelak, Adam; Kreiman, Gabriel; Rutishauser, Ueli
+  (2021) Data for: Neurons detect cognitive boundaries to structure episodic memories
+  in humans (Zheng et al., 2022, Nat Neuro in press) (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/000207/draft'
 contributor:
 - affiliation:
   - identifier: https://ror.org/03vek6s52
@@ -45,6 +47,48 @@ contributor:
   identifier: 0000-0002-9086-3760
   includeInCitation: true
   name: Zheng, Jie
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Schjetnan, Andrea
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Yebra, Mar
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Gomes, Bernard
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mosher, Clayton
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Kalia, Suneil
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Valiante, Taufik
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Mamelak, Adam
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -91,7 +135,8 @@ description: 'This dataset contains human single-neuron data recorded from the m
   Reference (to be updated upon publication):  Cognitive boundary signals in the human
   medial temporal lobe shape episodic memory representation. Jie Zheng, Andrea Gómez
   Palacio Schjetnan, Mar Yebra, Clayton Mosher, Suneil Kalia, Taufik A. Valiante,
-  Adam N. Mamelak, Gabriel Kreiman, Ueli Rutishauser. bioRxiv 2021.01.16.426538'
+  Adam N. Mamelak, Gabriel Kreiman, Ueli Rutishauser. bioRxiv 2021.01.16.426538.  [Nat
+  Neuro, in press, 2022]'
 ethicsApproval: []
 id: DANDI:000207/draft
 identifier: DANDI:000207
@@ -110,9 +155,15 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000207/versions/draft/assets/
 name: 'Data for: Neurons detect cognitive boundaries to structure episodic memories
-  in humans'
+  in humans (Zheng et al., 2022, Nat Neuro in press)'
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: Analysis code
+  name: Code that reads and plots data deposited here
+  relation: dcite:Describes
+  repository: github
+  schemaKey: Resource
+  url: https://github.com/rutishauserlab/cogboundary-zheng
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0

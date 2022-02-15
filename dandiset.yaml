@@ -23,13 +23,13 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 51368747
+  numberOfBytes: 50344811
   numberOfFiles: 19
   numberOfSubjects: 19
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
-    name: Human
+    name: Homo sapiens - Human
     schemaKey: SpeciesType
   variableMeasured:
   - Units

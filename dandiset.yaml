@@ -36,8 +36,8 @@ assetsSummary:
 citation: 'Zheng, Jie; Schjetnan, Andrea; Yebra, Mar; Gomes, Bernard; Mosher, Clayton;
   Kalia, Suneil; Valiante, Taufik; Mamelak, Adam; Kreiman, Gabriel; Rutishauser, Ueli
   (2022) Data for: Neurons detect cognitive boundaries to structure episodic memories
-  in humans (Zheng et al., 2022, Nat Neuro in press) (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000207/draft'
+  in humans (Zheng et al., 2022, Nat Neuro in press) (Version 0.220721.1915) [Data
+  set]. DANDI archive. https://doi.org/10.48324/dandi.000207/0.220721.1915'
 contributor:
 - affiliation:
   - identifier: https://ror.org/03vek6s52
@@ -125,6 +125,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2021-12-21T01:33:38.414453+00:00'
+datePublished: '2022-07-21T19:15:01.223305+00:00'
 description: 'This dataset contains human single-neuron data recorded from the medial
   temporal lobe (MTL) during a set of experiments to explore the role of neurons that
   respond to cognitive boundaries. This dataset accompanies the paper cited below.
@@ -137,8 +138,9 @@ description: 'This dataset contains human single-neuron data recorded from the m
   Palacio Schjetnan, Mar Yebra, Clayton Mosher, Suneil Kalia, Taufik A. Valiante,
   Adam N. Mamelak, Gabriel Kreiman, Ueli Rutishauser. bioRxiv 2021.01.16.426538.  [Nat
   Neuro, in press, 2022]'
+doi: 10.48324/dandi.000207/0.220721.1915
 ethicsApproval: []
-id: DANDI:000207/draft
+id: DANDI:000207/0.220721.1915
 identifier: DANDI:000207
 keywords:
 - human single neuron
@@ -153,10 +155,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000207/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000207/0.220721.1915/assets.yaml
 name: 'Data for: Neurons detect cognitive boundaries to structure episodic memories
   in humans (Zheng et al., 2022, Nat Neuro in press)'
 protocol: []
+publishedBy:
+  endDate: '2022-07-21T19:15:01.223305+00:00'
+  id: urn:uuid:80c02e65-240a-4fb9-aa96-12418f3b9cfc
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-07-21T19:15:01.223305+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c9d3059a-95d9-4ce5-bb7b-dd9d4bffd00d
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: Analysis code
   name: Code that reads and plots data deposited here
@@ -174,6 +188,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000207/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000207/0.220721.1915
+version: 0.220721.1915
 wasGeneratedBy: []

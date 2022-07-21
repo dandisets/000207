@@ -164,7 +164,13 @@ relatedResource:
   repository: github
   schemaKey: Resource
   url: https://github.com/rutishauserlab/cogboundary-zheng
-repository: https://dandiarchive.org/
+- identifier: https://doi.org/10.1038/s41593-022-01020-w
+  name: Neurons detect cognitive boundaries to structure episodic memories in humans
+  relation: dcite:IsDescribedBy
+  repository: Nature Neuro
+  schemaKey: Resource
+  url: https://www.nature.com/articles/s41593-022-01020-w
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []

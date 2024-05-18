@@ -38,7 +38,7 @@ assetsSummary:
   - Units
 citation: 'Zheng, Jie; Schjetnan, Andrea; Yebra, Mar; Gomes, Bernard; Mosher, Clayton;
   Kalia, Suneil; Valiante, Taufik; Mamelak, Adam; Kreiman, Gabriel; Rutishauser, Ueli
-  (2023) Data for: Neurons detect cognitive boundaries to structure episodic memories
+  (2024) Data for: Neurons detect cognitive boundaries to structure episodic memories
   in humans (Zheng et al., 2022, Nat Neuro in press) (Version draft) [Data set]. DANDI
   archive. https://dandiarchive.org/dandiset/000207/draft'
 contributor:
@@ -128,7 +128,6 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2021-12-21T01:33:38.414453+00:00'
-datePublished: '2023-05-30T18:22:25.704056+00:00'
 description: 'This dataset contains human single-neuron data recorded from the medial
   temporal lobe (MTL) during a set of experiments to explore the role of neurons that
   respond to cognitive boundaries. This dataset accompanies the paper cited below.
@@ -161,18 +160,6 @@ manifestLocation:
 name: 'Data for: Neurons detect cognitive boundaries to structure episodic memories
   in humans (Zheng et al., 2022, Nat Neuro in press)'
 protocol: []
-publishedBy:
-  endDate: '2023-05-30T18:22:25.704056+00:00'
-  id: urn:uuid:ab940638-ab36-430f-8b7c-fbd7c1fa0ded
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-05-30T18:22:25.704056+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:20ad8219-4283-49c2-b48d-9bcbe8b7aa85
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - identifier: Analysis code
   name: Code that reads and plots data deposited here
@@ -183,7 +170,8 @@ relatedResource:
 - identifier: https://doi.org/10.1038/s41593-022-01020-w
   name: Neurons detect cognitive boundaries to structure episodic memories in humans
   relation: dcite:IsDescribedBy
-  repository: Nature Neuro
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://www.nature.com/articles/s41593-022-01020-w
 repository: https://dandiarchive.org
